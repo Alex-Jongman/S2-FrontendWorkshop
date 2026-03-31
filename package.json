@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "scripts": {
+    "backend": "json-server --watch backend.json --port 3000"
   }
 }
