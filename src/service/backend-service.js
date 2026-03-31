@@ -12,6 +12,29 @@ class BackendService {
                 throw error;
             });
     }
+
+    getMapData(y, x) {
+        // TODO: Needs to be ajusted to fetch the correct map data from the tomcat backend, due to issues with the json-server working with :id's.
+        console.log(`Fetching map data ...`);
+        return fetch(`${this.backendUrl}/map`)
+            .then(response => response.json())
+            .then(mapData => {
+                console.log('Map data received:', mapData);
+                return mapData[y][x];
+            })
+            .catch(error => {
+                console.error('Error fetching map data:', error);
+                throw error;
+            });
+
+
+        // return fetch(`${this.backendUrl}/map/${y}/${x}`)
+        //     .then(response => response.json())
+        //     .catch(error => {
+        //         console.error('Error fetching map data:', error);
+        //         throw error;
+        //     });
+    }
 }
 
 const backendService = new BackendService();
