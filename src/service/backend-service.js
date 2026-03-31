@@ -26,14 +26,6 @@ class BackendService {
                 console.error('Error fetching map data:', error);
                 throw error;
             });
-
-
-        // return fetch(`${this.backendUrl}/map/${y}/${x}`)
-        //     .then(response => response.json())
-        //     .catch(error => {
-        //         console.error('Error fetching map data:', error);
-        //         throw error;
-        //     });
     }
 }
 
