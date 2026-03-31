@@ -1,4 +1,8 @@
 {
+    "current_position": {
+        "x": 1,
+        "y": 1
+    },
     "kaart": 
     [
         {
@@ -53,6 +57,7 @@
             "x": 1,
             "y": 1,
             "metadata": {
+                "photo": "position-1-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -64,6 +69,7 @@
             "x": 2,
             "y": 1,
             "metadata": {
+                "photo": "position-2-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -75,6 +81,7 @@
             "x": 3,
             "y": 1,
             "metadata": {
+                "photo": "position-3-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -87,7 +94,7 @@
             "y": 1,
             "metadata": {
                 "name": "Droomvlucht",
-                "photo": "positie-2-2.jpg"
+                "photo": "position-4-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -99,6 +106,7 @@
             "x": 5,
             "y": 1,
             "metadata": {
+                "photo": "position-5-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -110,6 +118,7 @@
             "x": 6,
             "y": 1,
             "metadata": {
+                "photo": "position-6-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -121,6 +130,7 @@
             "x": 7,
             "y": 1,
             "metadata": {
+                "photo": "position-7-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -132,6 +142,7 @@
             "x": 8,
             "y": 1,
             "metadata": {
+                "photo": "position-8-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -143,6 +154,7 @@
             "x": 9,
             "y": 1,
             "metadata": {
+                "photo": "position-9-1.jpg"
             },
             "deelmatrix": [
                 [0, 0, 0],
@@ -168,6 +180,7 @@
             "x": 1,
             "y": 2,
             "metadata": {
+                "photo": "position-1-2.jpg"
             },
             "deelmatrix": [
                 [0, 1, 1],
@@ -179,6 +192,7 @@
             "x": 2,
             "y": 2,
             "metadata": {
+                "photo": "position-2-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 1],
@@ -212,6 +226,7 @@
             "x": 5,
             "y": 2,
             "metadata": {
+                "photo": "position-5-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 1],
@@ -223,6 +238,7 @@
             "x": 6,
             "y": 2,
             "metadata": {
+                "photo": "position-6-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 1],
@@ -234,6 +250,7 @@
             "x": 7,
             "y": 2,
             "metadata": {
+                "photo": "position-7-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 1],
@@ -245,6 +262,7 @@
             "x": 8,
             "y": 2,
             "metadata": {
+                "photo": "position-8-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 1],
@@ -256,6 +274,7 @@
             "x": 9,
             "y": 2,
             "metadata": {
+                "photo": "position-9-2.jpg"
             },
             "deelmatrix": [
                 [1, 1, 0],
@@ -278,6 +297,7 @@
             "x": 1,
             "y": 3,
             "metadata": {
+                "photo": "position-1-3.jpg"
             },
             "deelmatrix": [
                 [0, 1, 1],
@@ -289,6 +309,7 @@
             "x": 2,
             "y": 3,
             "metadata": {
+                "photo": "position-2-3.jpg"
             },
             "deelmatrix": [
                 [1, 1, 0],
@@ -300,6 +321,7 @@
             "x": 3,
             "y": 3,
             "metadata": {
+                "photo": "position-3-3.jpg"
             },
             "deelmatrix": [
                 [1, 0, 0],
@@ -311,6 +333,7 @@
             "x": 4,
             "y": 3,
             "metadata": {
+                "photo": "position-4-3.jpg"
             },
             "deelmatrix": [
                 [0, 0, 1],
@@ -322,6 +345,7 @@
             "x": 5,
             "y": 3,
             "metadata": {
+                "photo": "position-5-3.jpg"
             },
             "deelmatrix": [
                 [0, 1, 1],
@@ -333,6 +357,7 @@
             "x": 6,
             "y": 3,
             "metadata": {
+                "photo": "position-6-3.jpg"
             },
             "deelmatrix": [
                 [1, 1, 0],
@@ -344,6 +369,7 @@
             "x": 7,
             "y": 3,
             "metadata": {
+                "photo": "position-7-3.jpg"
             },
             "deelmatrix": [
                 [1, 0, 1],
@@ -355,6 +381,7 @@
             "x": 8,
             "y": 3,
             "metadata": {
+                "photo": "position-8-3.jpg"
             },
             "deelmatrix": [
                 [0, 1, 1],
@@ -366,6 +393,7 @@
             "x": 9,
             "y": 3,
             "metadata": {
+                "photo": "position-9-3.jpg"
             },
             "deelmatrix": [
                 [1, 1, 0],
