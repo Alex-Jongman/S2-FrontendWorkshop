@@ -13,6 +13,21 @@ class BackendService {
             });
     }
 
+    setCurrentPosition(newCurrentPosition) {
+        return fetch(`${this.backendUrl}/current_position`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newCurrentPosition)
+        })
+        .then(response => response.json())
+        .catch(error => {
+            console.error('Error setting current position:', error);
+            throw error;
+        });
+    }
+
     getMapData(y, x) {
         // TODO: Needs to be ajusted to fetch the correct map data from the tomcat backend, due to issues with the json-server working with :id's.
         console.log(`Fetching map data ...`);
