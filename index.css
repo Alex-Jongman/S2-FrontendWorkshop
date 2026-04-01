@@ -32,9 +32,10 @@ main {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 70rem;
     height: auto;
     padding: 2rem;
+    margin: auto;
 }
 
 button {
