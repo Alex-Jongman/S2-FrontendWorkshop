@@ -14,12 +14,10 @@ public class CORSResponseFilter implements ContainerResponseFilter {
         //reflect the origin back. * is not allowed with authentication like JWT or cookies
         String origin = requestContext.getHeaderString("Origin");
         if (origin != null) {
-            responseContext.getHeaders().add("Access-Control-Allow-Origin", origin);
+            responseContext.getHeaders().putSingle("Access-Control-Allow-Origin", origin);
         }
-        // production:
-        // responseContext.getHeaders().add("Access-Control-Allow-Origin", "https://your-frontend.com");
-        responseContext.getHeaders().add("Access-Control-Allow-Credentials", "true");
-        responseContext.getHeaders().add("Access-Control-Allow-Headers","origin, content-type, accept, authorization");
-        responseContext.getHeaders().add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD");
+        responseContext.getHeaders().putSingle("Access-Control-Allow-Credentials", "true");
+        responseContext.getHeaders().putSingle("Access-Control-Allow-Headers","origin, content-type, accept, authorization");
+        responseContext.getHeaders().putSingle("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD");
     }
 }
