@@ -1,11 +1,11 @@
 info:
   name: loginRequestAdmin
   type: http
-  seq: 1
+  seq: 2
 
 http:
   method: POST
-  url: http://localhost:8080/api/authentication
+  url: "{{baseUrl}}/api/authentication"
   body:
     type: json
     data: '{"username": "Jos", "password": "Welkom123"}'

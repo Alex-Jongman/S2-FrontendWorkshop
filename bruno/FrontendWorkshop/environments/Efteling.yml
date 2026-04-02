@@ -1,1 +1,4 @@
 name: Efteling
+variables:
+  - name: baseUrl
+    value: http://localhost:8080

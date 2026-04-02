@@ -1,0 +1,4 @@
+name: AzureEfteling
+variables:
+  - name: baseUrl
+    value: fews-1775130942871.azurewebsites.net
